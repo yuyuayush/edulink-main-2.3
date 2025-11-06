@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+/* Local font added to /public/fonts */
+@font-face {
+  font-family: "MomoTrustDisplay";
+  src: url("/fonts/MomoTrustDisplay-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --primary: #4ecdc4;
+  --secondary: #002868;
+  /* Expose the local font via a CSS variable so components can opt-in */
+  --font-momo: "MomoTrustDisplay", Arial, Helvetica, sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Utility class to opt-in to the new font */
+.font-momo {
+  font-family: var(--font-momo) !important;
+}
+
+/* Line clamp utilities */
+.line-clamp-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.line-clamp-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+/* Marquee Animation for Testimonials */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Make marquee duration configurable via a CSS variable.
+   Default (desktop) is 60s. On small screens we'll override this
+   to a faster value so the marquee feels snappier. */
+:root {
+  --marquee-duration: 60s;
+}
+
+.animate-marquee {
+  animation: marquee var(--marquee-duration) linear infinite;
+}
+
+.pause-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Faster marquee on small screens */
+@media (max-width: 640px) {
+  :root {
+    --marquee-duration: 18s; /* faster on mobile */
+  }
+}

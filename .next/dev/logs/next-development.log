@@ -1,0 +1,445 @@
+[00:00:04.069] Server  LOG      ✓ Ready in 2.9s
+[00:02:45.004] Server  LOG      ○ Compiling / ...
+[00:02:55.365] Browser WARN    Element not found: body
+[00:02:55.366] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:02:55.366] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:02:58.278] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:03:09.980] Browser WARN    Image with src "/Services/girlImage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:03:09.980] Browser WARN    Image with src "/Services/phoneCover.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:03:09.980] Browser WARN    Image with src "/Services/EducationCareerOpportunities.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:09.980] Browser WARN    Image with src "/Services/PersonalWellbeingSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:09.980] Browser WARN    Image with src "/Services/VisaMigrationSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:09.980] Browser WARN    Image with src "/Services/SettlementLivingSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:09.980] Browser WARN    Image with src "/Services/ProfessionalEmploymentSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:09.980] Browser WARN    Image with src "/Services/StudentSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:12.370] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:03:12.567] Browser WARN    Element not found: body
+[00:03:14.711] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:03:16.148] Browser WARN    Element not found: body
+[00:03:17.042] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:03:19.806] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:03:22.146] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:03:26.695] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:03:30.166] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:03:34.959] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:03:38.292] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:03:44.523] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:03:46.868] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:03:49.175] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:04:29.428] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:04:34.985] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:04:39.750] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:05:09.609] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:06:33.539] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:07:03.422] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:07:23.079] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:07:33.288] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:08:43.717] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:09:05.293] Browser ERROR   ./components/homepage/NewWhyChooseUs.tsx:40:7
+Parsing ecmascript source code failed
+  38 |         <Image
+  39 |         
+> 40 |       </div>
+     |       ^
+  41 |     </div>
+  42 |
+  43 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/homepage/NewWhyChooseUs.tsx
+    ./app/page.tsx
+[00:09:05.293] Browser ERROR   ./components/homepage/NewWhyChooseUs.tsx:40:8
+Parsing ecmascript source code failed
+  38 |         <Image
+  39 |         
+> 40 |       </div>
+     |        ^^^^^
+  41 |     </div>
+  42 |
+  43 |
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/homepage/NewWhyChooseUs.tsx
+    ./app/page.tsx
+[00:09:09.049] Server  LOG      ✓ Compiled in 1270ms
+[00:09:11.761] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:09:13.326] Browser ERROR   ./components/homepage/NewWhyChooseUs.tsx:40:16
+Parsing ecmascript source code failed
+  38 |       <div className="relative">
+  39 |         <Image
+> 40 |         src={}/>
+     |                ^
+  41 |         
+  42 |       </div>
+  43 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/homepage/NewWhyChooseUs.tsx
+    ./app/page.tsx
+[00:09:15.814] Server  LOG      ✓ Compiled in 363ms
+[00:09:18.349] Browser ERROR   ./components/homepage/NewWhyChooseUs.tsx:40:16
+Parsing ecmascript source code failed
+  38 |       <div className="relative">
+  39 |         <Image
+> 40 |         src={}/>
+     |                ^
+  41 |         
+  42 |       </div>
+  43 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/homepage/NewWhyChooseUs.tsx
+    ./app/page.tsx
+[00:09:18.349] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:18.349] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:18.349] Browser ERROR   Image is missing required "src" property: <img>
+[00:09:18.349] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:18.349] Browser ERROR   ./components/homepage/NewWhyChooseUs.tsx:40:13
+Parsing ecmascript source code failed
+  38 |       <div className="relative">
+  39 |         <Image
+> 40 |         src="//>
+     |             ^^^^
+> 41 |         
+     | ^^^^^^^^
+> 42 |       </div>
+     | ^^^^^^^^
+> 43 |     </div>
+     | ^^^^^^^^
+> 44 |
+     | ^^^^^^^^
+> 45 |
+     | ^^^^^^^^
+> 46 |     </div>
+     | ^^^^^^^^
+> 47 |
+     | ^^^^^^^^
+> 48 |   </section>
+     | ^^^^^^^^
+> 49 | };
+     | ^^^^^^^^
+> 50 |
+     | ^^^^^^^^
+> 51 | export default NewWhyChooseUs;
+     | ^^^^^^^^
+> 52 |
+     | ^
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/homepage/NewWhyChooseUs.tsx
+    ./app/page.tsx
+[00:09:18.787] Browser ERROR   uncaughtError: Error: Image with src "/" is missing required "width" property.
+[00:09:18.825] Server  LOG      ✓ Compiled in 116ms
+[00:09:20.431] Server  ERROR    ⨯ Error: Image with src "/public/" is missing required "width" property.
+[00:09:21.459] Server  LOG      ✓ Compiled in 299ms
+[00:09:22.745] Server  LOG      ✓ Compiled in 353ms
+[00:09:24.862] Server  LOG      ✓ Compiled in 187ms
+[00:09:26.207] Server  ERROR    ⨯ Error: Image with src "/public/whyChoose/student.png" is missing required "width" property.
+[00:09:29.249] Server  LOG      ✓ Compiled in 220ms
+[00:09:32.072] Server  LOG      ✓ Compiled in 148ms
+[00:09:33.699] Server  ERROR    ⨯ Error: Image with src "/public/whyChoose/student.png" is missing required "height" property.
+[00:09:33.995] Browser ERROR   uncaughtError: Error: Image with src "/public/whyChoose/student.png" is missing required "width" property.
+[00:09:36.340] Server  LOG      ✓ Compiled in 183ms
+[00:09:39.489] Server  LOG      ✓ Compiled in 131ms
+[00:09:41.053] Server  LOG      ✓ Compiled in 76ms
+[00:09:44.360] Server  LOG      ○ Compiling /_not-found/page ...
+[00:09:47.939] Browser ERROR   Can't perform a React state update on a component that hasn't mounted yet. This indicates that you have a side-effect in your render function that asynchronously tries to update the component. Move this work to useEffect instead.
+[00:09:51.800] Browser WARN    Element not found: body
+[00:09:51.800] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:09:51.800] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:09:52.954] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/public/whyChoose/student.png" "received" null
+[00:09:55.349] Browser WARN    Image with src "/Services/phoneCover.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:55.350] Browser WARN    Image with src "/Services/girlImage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:55.350] Browser WARN    Image with src "/Services/VisaMigrationSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:09:55.350] Browser WARN    Image with src "/Services/EducationCareerOpportunities.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:09:55.350] Browser WARN    Image with src "/Services/PersonalWellbeingSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:09:55.350] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:09:55.350] Browser WARN    Image with src "/Services/SettlementLivingSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:09:55.350] Browser WARN    Image with src "/Services/ProfessionalEmploymentSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:09:55.350] Browser WARN    Image with src "/Services/StudentSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:10:03.111] Server  LOG      ✓ Compiled in 1902ms
+[00:10:06.024] Server  LOG      ✓ Compiled in 247ms
+[00:10:06.961] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/public/whyChoose/" "received" null
+[00:10:10.549] Server  LOG      ✓ Compiled in 779ms
+[00:10:11.496] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/public/whyChoose/" "received" null
+[00:10:12.622] Server  LOG      ✓ Compiled in 103ms
+[00:10:16.924] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/public/whyChoose/building.jpg" "received" null
+[00:10:19.912] Server  LOG      ✓ Compiled in 275ms
+[00:10:21.218] Server  LOG      ✓ Compiled in 474ms
+[00:10:25.414] Server  LOG      ✓ Compiled in 850ms
+[00:10:30.843] Server  LOG      ✓ Compiled in 533ms
+[00:10:39.749] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/public/whyChoose/building.jpg" "received" null
+[00:10:44.281] Browser WARN    Image with src "/whyChoose/building.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:10:44.281] Browser WARN    Image with src "/whyChoose/airplane.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:10:44.281] Browser WARN    Image with src "/whyChoose/student.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:05.654] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:12:05.761] Browser WARN    Element not found: body
+[00:12:08.696] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:12:10.838] Browser WARN    Element not found: body
+[00:12:10.845] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:12:12.720] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:12:15.111] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:12:17.425] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:12:19.754] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:12:22.086] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:12:24.422] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:12:34.865] Server  LOG      ✓ Compiled in 692ms
+[00:12:52.334] Server  LOG      ✓ Compiled in 168ms
+[00:12:59.086] Server  LOG      ✓ Compiled in 833ms
+[00:13:04.286] Browser ERROR   ./components/homepage/NewWhyChooseUs.tsx:33:66
+Parsing ecmascript source code failed
+  31 |   {/* Box */}
+  32 |
+> 33 |     <div className="max-w-7xl rounded-xl relative flex bg-[url("/)] ">
+     |                                                                  ^
+  34 |       {/* content */}
+  35 |       <div className=""></div>
+  36 |
+
+Expected '</', got ')'
+
+Import trace:
+  Server Component:
+    ./components/homepage/NewWhyChooseUs.tsx
+    ./app/page.tsx
+[00:13:04.286] Browser ERROR   ./components/homepage/NewWhyChooseUs.tsx:33:66
+Parsing ecmascript source code failed
+  31 |   {/* Box */}
+  32 |
+> 33 |     <div className="max-w-7xl rounded-xl relative flex bg-[url("/"")] ">
+     |                                                                  ^^
+  34 |       {/* content */}
+  35 |       <div className=""></div>
+  36 |
+
+Expected '</', got 'string literal (, "")'
+
+Import trace:
+  Server Component:
+    ./components/homepage/NewWhyChooseUs.tsx
+    ./app/page.tsx
+[00:13:05.286] Browser ERROR   ./components/homepage/NewWhyChooseUs.tsx:33:66
+Parsing ecmascript source code failed
+  31 |   {/* Box */}
+  32 |
+> 33 |     <div className="max-w-7xl rounded-xl relative flex bg-[url("/"=")] ">
+     |                                                                  ^^^
+  34 |       {/* content */}
+  35 |       <div className=""></div>
+  36 |
+
+Expected '</', got 'string literal (=, "=")'
+
+Import trace:
+  Server Component:
+    ./components/homepage/NewWhyChooseUs.tsx
+    ./app/page.tsx
+[00:13:06.311] Server  LOG      ✓ Compiled in 210ms
+[00:13:07.287] Browser ERROR   ./components/homepage/NewWhyChooseUs.tsx:33:66
+Parsing ecmascript source code failed
+  31 |   {/* Box */}
+  32 |
+> 33 |     <div className="max-w-7xl rounded-xl relative flex bg-[url("/")] ">
+     |                                                                  ^^^^^
+  34 |       {/* content */}
+  35 |       <div className=""></div>
+  36 |
+
+Expected '</', got 'string literal ()] , ")] ")'
+
+Import trace:
+  Server Component:
+    ./components/homepage/NewWhyChooseUs.tsx
+    ./app/page.tsx
+[00:13:23.754] Server  LOG      ✓ Compiled in 292ms
+[00:14:08.707] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:14:10.977] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:14:22.365] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:16:19.361] Server  LOG      ✓ Compiled in 1203ms
+[00:16:21.762] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:16:24.798] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:16:27.147] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:16:29.463] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:16:31.866] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:16:38.979] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:16:39.047] Server  LOG      ✓ Compiled in 498ms
+[00:16:57.664] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:16:57.787] Server  LOG      ✓ Compiled in 232ms
+[00:17:00.435] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:17:25.700] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:17:28.912] Server  LOG      ✓ Compiled in 767ms
+[00:17:36.240] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:17:38.117] Server  LOG      ✓ Compiled in 1498ms
+[00:17:39.022] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:17:44.577] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:17:55.295] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:18:05.351] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:18:07.706] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:18:10.036] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:18:12.406] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:18:15.054] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:18:36.303] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:18:59.268] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:18:59.901] Server  LOG      ✓ Compiled in 934ms
+[00:19:04.841] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:19:12.553] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:19:46.402] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/whyChoose/building.png" "received" null
+[00:19:54.339] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:20:05.291] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:20:19.819] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:20:32.865] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:20:35.194] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:20:38.786] Server  LOG      ✓ Compiled in 98ms
+[00:20:42.474] Server  LOG      ✓ Compiled in 186ms
+[00:20:43.045] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:20:45.278] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:20:52.935] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:20:55.973] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:20:58.440] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:21:01.264] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:21:03.603] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:21:13.251] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:21:15.553] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:21:20.921] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:21:23.285] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:21:25.618] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:21:27.949] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:21:35.804] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:21:39.807] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:21:50.842] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:22:05.664] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:22:20.145] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:22:53.684] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:23:12.431] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:23:25.625] Server  LOG      ✓ Compiled in 327ms
+[00:23:51.927] Server  LOG      ✓ Compiled in 367ms
+[00:24:02.598] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:24:04.918] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:24:06.970] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:24:10.664] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:25:59.119] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:26:02.450] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:26:26.973] Server  LOG      ✓ Compiled in 638ms
+[00:26:43.730] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:26:46.024] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:26:48.351] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:26:53.018] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:26:59.336] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:27:03.353] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:28:23.471] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:28:23.472] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:28:25.791] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:28:27.380] Browser WARN    Element not found: body
+[00:28:27.380] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:28:27.380] Browser WARN    Element not found: body
+[00:28:27.380] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:28:27.380] Browser WARN    Image with src "/Services/phoneCover.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:28:29.865] Browser WARN    Element not found: body
+[00:28:31.479] Browser WARN    Image with src "/Services/EducationCareerOpportunities.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:28:31.479] Browser WARN    Image with src "/Services/girlImage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:28:31.479] Browser WARN    Image with src "/Services/StudentSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:28:31.479] Browser WARN    Image with src "/Services/ProfessionalEmploymentSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:28:31.479] Browser WARN    Image with src "/Services/PersonalWellbeingSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:28:31.479] Browser WARN    Image with src "/Services/SettlementLivingSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:28:45.348] Browser WARN    Element not found: body
+[00:28:45.811] Browser WARN    Element not found: body
+[00:28:47.946] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:28:47.946] Browser WARN    Image with src "/Services/VisaMigrationSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:28:50.387] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:28:52.738] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:28:55.072] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:28:57.413] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:28:59.746] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:29:02.047] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:29:04.354] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:29:09.680] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:29:31.102] Server  LOG      ✓ Compiled in 879ms
+[00:29:33.562] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:29:38.068] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:29:45.275] Server  LOG      ✓ Compiled in 520ms
+[00:29:45.587] Browser ERROR   ./components/homepage/NewWhyChooseUs.tsx:69:23
+Parsing ecmascript source code failed
+  67 |               alt="Student"
+  68 |               width={400}
+> 69 |               height={00}
+     |                       ^^
+  70 |               className="absolute top-0 left-0 w-auto h-full object-contain z-10"
+  71 |             />
+  72 |
+
+Legacy octal escape is not permitted in strict mode
+
+Import trace:
+  Server Component:
+    ./components/homepage/NewWhyChooseUs.tsx
+    ./app/page.tsx
+[00:29:45.588] Browser ERROR   ./components/homepage/NewWhyChooseUs.tsx:69:23
+Parsing ecmascript source code failed
+  67 |               alt="Student"
+  68 |               width={400}
+> 69 |               height={00}
+     |                       ^^
+  70 |               className="absolute top-0 left-0 w-auto h-full object-contain z-10"
+  71 |             />
+  72 |
+
+Legacy octal literals are not available when targeting ECMAScript 5 and higher
+
+Import trace:
+  Server Component:
+    ./components/homepage/NewWhyChooseUs.tsx
+    ./app/page.tsx
+[00:29:46.163] Server  LOG      ✓ Compiled in 245ms
+[00:29:47.645] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:29:51.235] Server  LOG      ✓ Compiled in 151ms
+[00:29:53.984] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:29:56.118] Server  LOG      ✓ Compiled in 91ms
+[00:29:56.615] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:30:08.145] Server  LOG      ✓ Compiled in 97ms
+[00:30:09.216] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:30:12.493] Server  LOG      ✓ Compiled in 116ms
+[00:30:16.238] Server  LOG      ✓ Compiled in 96ms
+[00:30:17.812] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:30:21.158] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:30:21.940] Browser WARN    Image with src "/whyChoose/building.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:30:22.286] Browser WARN    Element not found: body
+[00:30:22.286] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:30:22.286] Browser WARN    Element not found: body
+[00:30:22.286] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:30:22.699] Browser WARN    Image with src "/Services/phoneCover.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:30:22.699] Browser WARN    Image with src "/Services/girlImage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:30:22.699] Browser WARN    Image with src "/Services/EducationCareerOpportunities.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:22.699] Browser WARN    Image with src "/Services/SettlementLivingSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:22.699] Browser WARN    Image with src "/Services/VisaMigrationSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:22.699] Browser WARN    Image with src "/Services/PersonalWellbeingSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:22.699] Browser WARN    Image with src "/Services/ProfessionalEmploymentSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:22.699] Browser WARN    Image with src "/Services/StudentSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:24.981] Browser WARN    Element not found: body
+[00:30:27.598] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:31:14.873] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:33:59.278] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:34:01.630] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:34:04.029] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:34:06.364] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:34:08.737] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:34:11.299] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:34:13.738] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:34:16.077] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:34:18.451] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:36:12.389] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
