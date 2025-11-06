@@ -685,3 +685,129 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [00:20:34.934] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
 [00:20:37.304] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
 [00:20:39.677] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:20:59.583] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:21:01.998] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:21:04.348] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:21:06.706] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:21:09.023] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:21:15.596] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:21:33.551] Server  LOG      ✓ Compiled in 94ms
+[00:21:34.840] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:21:38.312] Browser WARN    Image with src "/whyChoose/graduate.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:21:38.670] Browser WARN    Image with src "/whyChoose/graduate.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:38.670] Browser WARN    Element not found: body
+[00:21:38.671] Browser WARN    GSAP target [object NodeList] not found. https://gsap.com
+[00:21:38.671] Browser WARN    GSAP target  not found. https://gsap.com
+[00:21:38.671] Browser WARN    Image with src "/whyChoose/graduate-hat.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:38.671] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:21:38.671] Browser WARN    Element not found: body
+[00:21:38.671] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:21:39.076] Browser WARN    Image with src "/Services/girlImage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:21:39.076] Browser WARN    Image with src "/Services/phoneCover.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:21:39.076] Browser WARN    Image with src "/Services/EducationCareerOpportunities.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:39.076] Browser WARN    Image with src "/Services/VisaMigrationSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:39.076] Browser WARN    Image with src "/Services/PersonalWellbeingSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:39.076] Browser WARN    Image with src "/Services/SettlementLivingSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:39.076] Browser WARN    Image with src "/Services/ProfessionalEmploymentSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:39.076] Browser WARN    Image with src "/Services/StudentSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:41.272] Browser WARN    Element not found: body
+[00:21:57.184] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:21:59.518] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:22:02.124] Browser WARN    Image with src "/whyChoose/graduate.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:22:02.124] Browser WARN    Image with src "/whyChoose/graduate.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:02.124] Browser WARN    Element not found: body
+[00:22:02.124] Browser WARN    GSAP target [object NodeList] not found. https://gsap.com
+[00:22:02.124] Browser WARN    GSAP target  not found. https://gsap.com
+[00:22:02.124] Browser WARN    Image with src "/whyChoose/graduate-hat.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:02.124] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:22:02.124] Browser WARN    Element not found: body
+[00:22:02.125] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:22:02.413] Browser WARN    Image with src "/Services/phoneCover.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:22:02.413] Browser WARN    Image with src "/Services/girlImage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:22:02.413] Browser WARN    Image with src "/Services/EducationCareerOpportunities.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:02.413] Browser WARN    Image with src "/Services/VisaMigrationSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:02.413] Browser WARN    Image with src "/Services/SettlementLivingSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:02.413] Browser WARN    Image with src "/Services/PersonalWellbeingSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:02.413] Browser WARN    Image with src "/Services/ProfessionalEmploymentSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:02.413] Browser WARN    Image with src "/Services/StudentSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:04.734] Browser WARN    Element not found: body
+[00:22:12.742] Browser WARN    Image with src "/whyChoose/graduate.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:22:13.100] Browser WARN    Image with src "/whyChoose/graduate.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:13.100] Browser WARN    Element not found: body
+[00:22:13.100] Browser WARN    GSAP target [object NodeList] not found. https://gsap.com
+[00:22:13.100] Browser WARN    GSAP target  not found. https://gsap.com
+[00:22:13.100] Browser WARN    Image with src "/whyChoose/graduate-hat.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:13.100] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:22:13.100] Browser WARN    Element not found: body
+[00:22:13.100] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:22:13.100] Browser WARN    Image with src "/Services/phoneCover.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:22:15.964] Browser WARN    Element not found: body
+[00:22:15.964] Browser WARN    Image with src "/Services/girlImage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:22:15.964] Browser WARN    Image with src "/Services/VisaMigrationSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:15.964] Browser WARN    Image with src "/Services/StudentSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:15.964] Browser WARN    Image with src "/Services/EducationCareerOpportunities.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:15.964] Browser WARN    Image with src "/Services/SettlementLivingSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:15.964] Browser WARN    Image with src "/Services/ProfessionalEmploymentSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:15.964] Browser WARN    Image with src "/Services/PersonalWellbeingSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:38.873] Browser WARN    Image with src "/whyChoose/graduate.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:38.874] Browser WARN    Image with src "/whyChoose/graduate-hat.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:38.874] Browser WARN    Element not found: body
+[00:22:38.874] Browser WARN    GSAP target [object NodeList] not found. https://gsap.com
+[00:22:38.874] Browser WARN    GSAP target  not found. https://gsap.com
+[00:22:38.874] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:22:38.874] Browser WARN    Element not found: body
+[00:22:38.874] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:22:39.188] Browser WARN    Image with src "/Services/phoneCover.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:22:39.188] Browser WARN    Image with src "/Services/girlImage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:22:39.188] Browser WARN    Image with src "/Services/EducationCareerOpportunities.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:39.188] Browser WARN    Image with src "/Services/VisaMigrationSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:39.188] Browser WARN    Image with src "/Services/SettlementLivingSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:39.188] Browser WARN    Image with src "/Services/PersonalWellbeingSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:39.188] Browser WARN    Image with src "/Services/ProfessionalEmploymentSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:39.188] Browser WARN    Image with src "/Services/StudentSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:41.447] Browser WARN    Element not found: body
+[00:22:47.303] Server  LOG      ✓ Compiled in 80ms
+[00:22:50.026] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:22:52.347] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:22:55.339] Browser WARN    Image with src "/whyChoose/graduate.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:55.339] Browser WARN    Element not found: body
+[00:22:55.339] Browser WARN    GSAP target [object NodeList] not found. https://gsap.com
+[00:22:55.339] Browser WARN    GSAP target  not found. https://gsap.com
+[00:22:55.339] Browser WARN    Image with src "/whyChoose/graduate-hat.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:55.339] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:22:55.339] Browser WARN    Element not found: body
+[00:22:55.339] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:22:55.339] Browser WARN    Image with src "/Services/phoneCover.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:22:55.339] Browser WARN    Image with src "/Services/girlImage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:22:55.339] Browser WARN    Image with src "/Services/EducationCareerOpportunities.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:55.339] Browser WARN    Image with src "/Services/VisaMigrationSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:55.339] Browser WARN    Image with src "/Services/StudentSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:57.749] Browser WARN    Element not found: body
+[00:22:58.221] Browser WARN    Image with src "/Services/SettlementLivingSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:58.221] Browser WARN    Image with src "/Services/PersonalWellbeingSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:58.221] Browser WARN    Image with src "/Services/ProfessionalEmploymentSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:08.611] Server  LOG      ✓ Compiled in 140ms
+[00:23:11.033] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:23:24.158] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:23:26.399] Browser WARN    Image with src "/whyChoose/graduate.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:23:26.740] Browser WARN    Image with src "/whyChoose/graduate.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:26.740] Browser WARN    Element not found: body
+[00:23:26.740] Browser WARN    GSAP target [object NodeList] not found. https://gsap.com
+[00:23:26.740] Browser WARN    GSAP target  not found. https://gsap.com
+[00:23:26.740] Browser WARN    Image with src "/whyChoose/graduate-hat.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:26.740] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:23:26.740] Browser WARN    Element not found: body
+[00:23:26.740] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:23:27.096] Browser WARN    Image with src "/Services/phoneCover.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:23:27.096] Browser WARN    Image with src "/Services/girlImage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:23:27.096] Browser WARN    Image with src "/Services/EducationCareerOpportunities.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:27.096] Browser WARN    Image with src "/Services/VisaMigrationSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:27.096] Browser WARN    Image with src "/Services/SettlementLivingSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:27.096] Browser WARN    Image with src "/Services/PersonalWellbeingSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:27.096] Browser WARN    Image with src "/Services/ProfessionalEmploymentSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:27.096] Browser WARN    Image with src "/Services/StudentSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:29.477] Browser WARN    Element not found: body

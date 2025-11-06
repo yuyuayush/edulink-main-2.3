@@ -92,7 +92,6 @@ const WhyChooseHat = () => {
             .from(boxes, {
                 y: -80,
                 rotation: -8,
-                opacity: 0,
                 duration: 0.5,
                 stagger: 0.15,
                 ease: "power2.out",
