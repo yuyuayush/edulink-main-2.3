@@ -1591,7 +1591,6 @@ const WhyChooseHat = ()=>{
             });
             stackTl.from(boxes, {
                 y: -80,
-                rotation: -8,
                 duration: 0.5,
                 stagger: 0.15,
                 ease: "power2.out"
@@ -1619,7 +1618,7 @@ const WhyChooseHat = ()=>{
                 className: "w-8 h-8"
             }, void 0, false, {
                 fileName: "[project]/components/WhyChooseHat.tsx",
-                lineNumber: 115,
+                lineNumber: 114,
                 columnNumber: 19
             }, ("TURBOPACK compile-time value", void 0)),
             title: "Expert Guidance",
@@ -1631,7 +1630,7 @@ const WhyChooseHat = ()=>{
                 className: "w-8 h-8"
             }, void 0, false, {
                 fileName: "[project]/components/WhyChooseHat.tsx",
-                lineNumber: 122,
+                lineNumber: 121,
                 columnNumber: 19
             }, ("TURBOPACK compile-time value", void 0)),
             title: "Study Pathways",
@@ -1643,7 +1642,7 @@ const WhyChooseHat = ()=>{
                 className: "w-8 h-8"
             }, void 0, false, {
                 fileName: "[project]/components/WhyChooseHat.tsx",
-                lineNumber: 129,
+                lineNumber: 128,
                 columnNumber: 17
             }, ("TURBOPACK compile-time value", void 0)),
             title: "95% Success Rate",
@@ -1673,12 +1672,12 @@ const WhyChooseHat = ()=>{
                                     className: "object-cover drop-shadow-2xl "
                                 }, void 0, false, {
                                     fileName: "[project]/components/WhyChooseHat.tsx",
-                                    lineNumber: 144,
+                                    lineNumber: 143,
                                     columnNumber: 25
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/components/WhyChooseHat.tsx",
-                                lineNumber: 143,
+                                lineNumber: 142,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             [
@@ -1695,18 +1694,18 @@ const WhyChooseHat = ()=>{
                                         className: "object-contain"
                                     }, void 0, false, {
                                         fileName: "[project]/components/WhyChooseHat.tsx",
-                                        lineNumber: 168,
+                                        lineNumber: 167,
                                         columnNumber: 29
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, i, false, {
                                     fileName: "[project]/components/WhyChooseHat.tsx",
-                                    lineNumber: 155,
+                                    lineNumber: 154,
                                     columnNumber: 25
                                 }, ("TURBOPACK compile-time value", void 0)))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/WhyChooseHat.tsx",
-                        lineNumber: 142,
+                        lineNumber: 141,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1726,14 +1725,14 @@ const WhyChooseHat = ()=>{
                                                 children: "EduLink"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/WhyChooseHat.tsx",
-                                                lineNumber: 187,
+                                                lineNumber: 186,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             "?"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/WhyChooseHat.tsx",
-                                        lineNumber: 185,
+                                        lineNumber: 184,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1746,19 +1745,19 @@ const WhyChooseHat = ()=>{
                                                 children: "Your success is our mission."
                                             }, void 0, false, {
                                                 fileName: "[project]/components/WhyChooseHat.tsx",
-                                                lineNumber: 195,
+                                                lineNumber: 194,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/WhyChooseHat.tsx",
-                                        lineNumber: 192,
+                                        lineNumber: 191,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/WhyChooseHat.tsx",
-                                lineNumber: 184,
+                                lineNumber: 183,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1774,7 +1773,7 @@ const WhyChooseHat = ()=>{
                                                 className: "absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 bg-gradient-to-r from-blue-50 via-teal-50 to-purple-50 blur-xl transition-all duration-700"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/WhyChooseHat.tsx",
-                                                lineNumber: 217,
+                                                lineNumber: 216,
                                                 columnNumber: 33
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1788,7 +1787,7 @@ const WhyChooseHat = ()=>{
                                                                 children: feature.icon
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/WhyChooseHat.tsx",
-                                                                lineNumber: 222,
+                                                                lineNumber: 221,
                                                                 columnNumber: 41
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1796,13 +1795,13 @@ const WhyChooseHat = ()=>{
                                                                 children: feature.label
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/WhyChooseHat.tsx",
-                                                                lineNumber: 225,
+                                                                lineNumber: 224,
                                                                 columnNumber: 41
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/WhyChooseHat.tsx",
-                                                        lineNumber: 221,
+                                                        lineNumber: 220,
                                                         columnNumber: 37
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     feature.stats && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1813,7 +1812,7 @@ const WhyChooseHat = ()=>{
                                                                 children: feature.stats.number
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/WhyChooseHat.tsx",
-                                                                lineNumber: 232,
+                                                                lineNumber: 231,
                                                                 columnNumber: 45
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1821,13 +1820,13 @@ const WhyChooseHat = ()=>{
                                                                 children: feature.stats.label
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/WhyChooseHat.tsx",
-                                                                lineNumber: 235,
+                                                                lineNumber: 234,
                                                                 columnNumber: 45
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/WhyChooseHat.tsx",
-                                                        lineNumber: 231,
+                                                        lineNumber: 230,
                                                         columnNumber: 41
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1835,7 +1834,7 @@ const WhyChooseHat = ()=>{
                                                         children: feature.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/WhyChooseHat.tsx",
-                                                        lineNumber: 241,
+                                                        lineNumber: 240,
                                                         columnNumber: 37
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1843,7 +1842,7 @@ const WhyChooseHat = ()=>{
                                                         children: feature.description
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/WhyChooseHat.tsx",
-                                                        lineNumber: 244,
+                                                        lineNumber: 243,
                                                         columnNumber: 37
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1864,65 +1863,65 @@ const WhyChooseHat = ()=>{
                                                                         d: "M9 5l7 7-7 7"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/WhyChooseHat.tsx",
-                                                                        lineNumber: 257,
+                                                                        lineNumber: 256,
                                                                         columnNumber: 49
                                                                     }, ("TURBOPACK compile-time value", void 0))
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/WhyChooseHat.tsx",
-                                                                    lineNumber: 251,
+                                                                    lineNumber: 250,
                                                                     columnNumber: 45
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/WhyChooseHat.tsx",
-                                                            lineNumber: 249,
+                                                            lineNumber: 248,
                                                             columnNumber: 41
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/WhyChooseHat.tsx",
-                                                        lineNumber: 248,
+                                                        lineNumber: 247,
                                                         columnNumber: 37
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/WhyChooseHat.tsx",
-                                                lineNumber: 219,
+                                                lineNumber: 218,
                                                 columnNumber: 33
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, i, true, {
                                         fileName: "[project]/components/WhyChooseHat.tsx",
-                                        lineNumber: 207,
+                                        lineNumber: 206,
                                         columnNumber: 29
                                     }, ("TURBOPACK compile-time value", void 0)))
                             }, void 0, false, {
                                 fileName: "[project]/components/WhyChooseHat.tsx",
-                                lineNumber: 202,
+                                lineNumber: 201,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/WhyChooseHat.tsx",
-                        lineNumber: 179,
+                        lineNumber: 178,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/WhyChooseHat.tsx",
-                lineNumber: 140,
+                lineNumber: 139,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-blue-100/40 rounded-full blur-3xl -z-10"
             }, void 0, false, {
                 fileName: "[project]/components/WhyChooseHat.tsx",
-                lineNumber: 274,
+                lineNumber: 273,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/components/WhyChooseHat.tsx",
-        lineNumber: 139,
+        lineNumber: 138,
         columnNumber: 9
     }, ("TURBOPACK compile-time value", void 0));
 };

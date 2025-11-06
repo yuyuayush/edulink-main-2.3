@@ -86,7 +86,6 @@ const WhyChooseHat = () => {
         stackTl
             .from(boxes, {
                 y: -80,
-                rotation: -8,
                 duration: 0.5,
                 stagger: 0.15,
                 ease: "power2.out",
