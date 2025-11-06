@@ -27,7 +27,7 @@ const Home = () => {
       
       {/* <Services3D /> */}
       {/* <Services /> */}
-      <WhyChooseUS />
+      {/* <WhyChooseUS /> */}
       {/* <NewWhyChooseUs/> */}
         <WhyChooseHat/>
       {/* <WhyChoose2/> */}

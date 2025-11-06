@@ -1496,6 +1496,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/gsap/index.js [app-client] (ecmascript) <locals>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$ScrollTrigger$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/gsap/ScrollTrigger.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/award.js [app-client] (ecmascript) <export default as Award>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$book$2d$open$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__BookOpen$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/book-open.js [app-client] (ecmascript) <export default as BookOpen>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$graduation$2d$cap$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__GraduationCap$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/graduation-cap.js [app-client] (ecmascript) <export default as GraduationCap>");
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
@@ -1503,65 +1506,72 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
+;
 if ("TURBOPACK compile-time truthy", 1) __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["gsap"].registerPlugin(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$ScrollTrigger$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ScrollTrigger"]);
 const WhyChooseHat = ()=>{
     _s();
-    const hatRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const hatRefs = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])([]);
     const boxRefs = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])([]);
     const textRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
     const containerRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "WhyChooseHat.useEffect": ()=>{
-            const hat = hatRef.current;
-            // 🎩 1️⃣ Hat Throw + Float Animation
-            const throwTl = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["gsap"].timeline({
-                scrollTrigger: {
-                    trigger: hat,
-                    start: "top 90%"
+            if (!hatRefs.current || !textRef.current || !containerRef.current) return;
+            // 🎓 Animate all hats differently
+            hatRefs.current.forEach({
+                "WhyChooseHat.useEffect": (hat, index)=>{
+                    const delay = index * 0.3;
+                    const throwTl = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["gsap"].timeline({
+                        scrollTrigger: {
+                            trigger: hat,
+                            start: "top 60%"
+                        },
+                        delay
+                    });
+                    throwTl.to(hat, {
+                        y: -0 - index * 20,
+                        x: 100 + index * 40,
+                        rotation: 360 + index * 60,
+                        duration: 1.6,
+                        ease: "power2.out"
+                    }).to(hat, {
+                        y: -180,
+                        x: 0,
+                        rotation: 720 + index * 60,
+                        duration: 1.8,
+                        ease: "bounce.out",
+                        onComplete: {
+                            "WhyChooseHat.useEffect": ()=>{
+                                const floatTl = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["gsap"].timeline({
+                                    repeat: -1,
+                                    yoyo: true
+                                });
+                                floatTl.to(hat, {
+                                    y: -140,
+                                    rotation: "+=10",
+                                    duration: 1.5 + index * 0.3,
+                                    ease: "sine.inOut"
+                                }).to(hat, {
+                                    y: -150,
+                                    rotation: "-=10",
+                                    duration: 1.5 + index * 0.3,
+                                    ease: "sine.inOut"
+                                });
+                            }
+                        }["WhyChooseHat.useEffect"]
+                    });
                 }
-            });
-            throwTl.to(hat, {
-                y: -180,
-                x: 120,
-                rotation: 360,
-                duration: 1.4,
-                ease: "power2.out"
-            }).to(hat, {
-                y: 0,
-                x: 0,
-                rotation: 720,
-                duration: 1.8,
-                ease: "bounce.out",
-                onComplete: {
-                    "WhyChooseHat.useEffect": ()=>{
-                        const floatTl = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["gsap"].timeline({
-                            repeat: -1,
-                            yoyo: true
-                        });
-                        floatTl.to(hat, {
-                            y: -15,
-                            rotation: "+=10",
-                            duration: 1.5,
-                            ease: "sine.inOut"
-                        }).to(hat, {
-                            y: 0,
-                            rotation: "-=10",
-                            duration: 1.5,
-                            ease: "sine.inOut"
-                        });
-                    }
-                }["WhyChooseHat.useEffect"]
-            });
-            // 🪄 2️⃣ Text Reveal Animation
+            }["WhyChooseHat.useEffect"]);
+            // ✨ Text Reveal Animation
             const lines = textRef.current.querySelectorAll(".split-line");
             lines.forEach({
                 "WhyChooseHat.useEffect": (line)=>{
                     const words = line.innerHTML.split(" ");
                     line.innerHTML = words.map({
                         "WhyChooseHat.useEffect": (word)=>`
-        <span class="word-wrapper overflow-hidden inline-block">
-          <span class="word inline-block">${word}&nbsp;</span>
-        </span>`
+          <span class="word-wrapper overflow-hidden inline-block">
+            <span class="word inline-block">${word}&nbsp;</span>
+          </span>`
                     }["WhyChooseHat.useEffect"]).join("");
                 }
             }["WhyChooseHat.useEffect"]);
@@ -1577,18 +1587,17 @@ const WhyChooseHat = ()=>{
                 ease: "power3.out",
                 stagger: 0.03
             });
-            // 📦 3️⃣ Box “Stack and Fall” Animation
+            // 📦 Cards Animation
             const boxes = boxRefs.current;
             const stackTl = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["gsap"].timeline({
                 scrollTrigger: {
                     trigger: containerRef.current,
-                    start: "top 80%"
+                    start: "top 85%"
                 }
             });
             stackTl.from(boxes, {
                 y: -80,
                 rotation: -8,
-                opacity: 0,
                 duration: 0.5,
                 stagger: 0.15,
                 ease: "power2.out"
@@ -1599,7 +1608,7 @@ const WhyChooseHat = ()=>{
                 stagger: 0.15,
                 ease: "bounce.out"
             });
-            // Optional gentle floating motion for cards
+            // Floating motion
             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["gsap"].to(boxes, {
                 y: -6,
                 duration: 2,
@@ -1612,67 +1621,98 @@ const WhyChooseHat = ()=>{
     }["WhyChooseHat.useEffect"], []);
     const features = [
         {
-            title: " Worried about finding",
-            description: "The Perfect Career?",
-            para: ""
+            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$graduation$2d$cap$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__GraduationCap$3e$__["GraduationCap"], {
+                className: "w-8 h-8"
+            }, void 0, false, {
+                fileName: "[project]/components/WhyChooseHat.tsx",
+                lineNumber: 122,
+                columnNumber: 19
+            }, ("TURBOPACK compile-time value", void 0)),
+            title: "Expert Guidance",
+            description: "From student to post-study visas, our experienced consultants ensure a smooth application process.",
+            label: "Guidance"
         },
         {
-            title: "24/7",
-            description: "Student Support"
+            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$book$2d$open$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__BookOpen$3e$__["BookOpen"], {
+                className: "w-8 h-8"
+            }, void 0, false, {
+                fileName: "[project]/components/WhyChooseHat.tsx",
+                lineNumber: 129,
+                columnNumber: 19
+            }, ("TURBOPACK compile-time value", void 0)),
+            title: "Study Pathways",
+            description: "Choose the right course and university that aligns with your career goals for real success.",
+            label: "Expertise"
         },
         {
-            title: "100%",
-            description: "Premium Quality"
+            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__["Award"], {
+                className: "w-8 h-8"
+            }, void 0, false, {
+                fileName: "[project]/components/WhyChooseHat.tsx",
+                lineNumber: 136,
+                columnNumber: 17
+            }, ("TURBOPACK compile-time value", void 0)),
+            title: "95% Success Rate",
+            description: "Our proven track record speaks for itself with excellent results.",
+            label: "Results",
+            stats: {
+                number: "95%",
+                label: "Visa Success Rate"
+            }
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "relative w-full bg-gradient-to-b from-white to-blue-50 py-28 px-6 md:px-12 lg:px-20 overflow-visible",
+        className: "py-20 sm:py-32 relative w-full bg-gradient-to-b from-white to-blue-50  px-6 md:px-12 lg:px-16 overflow-visible",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center relative z-10",
+                className: "mx-auto grid lg:grid-cols-2 gap-20 items-start relative z-10",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex justify-center relative",
+                        className: "flex items-end relative h-full  ",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "relative w-72 h-72 md:w-[420px] md:h-[420px]",
+                                className: " relative w-[550px] h-[300px] md:w-full md:h-100",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                    src: "/whyChoose/graduate-girl.png",
-                                    alt: "Girl throwing hat",
+                                    src: "/whyChoose/graduate.png",
+                                    alt: "group throwing hat",
                                     fill: true,
-                                    className: "object-contain drop-shadow-2xl"
+                                    className: "object-cover drop-shadow-2xl "
                                 }, void 0, false, {
                                     fileName: "[project]/components/WhyChooseHat.tsx",
-                                    lineNumber: 128,
+                                    lineNumber: 151,
                                     columnNumber: 25
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/components/WhyChooseHat.tsx",
-                                lineNumber: 127,
+                                lineNumber: 150,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                ref: hatRef,
-                                className: "absolute w-20 h-20 md:w-24 md:h-24 -top-10 left-[55%] z-20",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                    src: "/whyChoose/graduate-hat.png",
-                                    alt: "Flying hat",
-                                    fill: true,
-                                    className: "object-contain"
-                                }, void 0, false, {
+                            [
+                                ...Array(4)
+                            ].map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    ref: (el)=>{
+                                        hatRefs.current[i] = el;
+                                    },
+                                    className: `absolute left-0 w-22 h-20 md:w-32 md:h-32 ${i === 0 ? "left-[40%] top-0" : i === 1 ? "left-[28%] top-0" : i === 2 ? "left-[50%] top-0" : "left-[10%] top-0"} z-20`,
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        src: "/whyChoose/graduate-hat.png",
+                                        alt: `Flying hat ${i + 1}`,
+                                        fill: true,
+                                        className: "object-contain"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/WhyChooseHat.tsx",
+                                        lineNumber: 175,
+                                        columnNumber: 29
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, i, false, {
                                     fileName: "[project]/components/WhyChooseHat.tsx",
-                                    lineNumber: 141,
+                                    lineNumber: 162,
                                     columnNumber: 25
-                                }, ("TURBOPACK compile-time value", void 0))
-                            }, void 0, false, {
-                                fileName: "[project]/components/WhyChooseHat.tsx",
-                                lineNumber: 137,
-                                columnNumber: 21
-                            }, ("TURBOPACK compile-time value", void 0))
+                                }, ("TURBOPACK compile-time value", void 0)))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/WhyChooseHat.tsx",
-                        lineNumber: 126,
+                        lineNumber: 149,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1680,10 +1720,10 @@ const WhyChooseHat = ()=>{
                         className: "space-y-10 text-center lg:text-left relative",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "text-center mb-20",
+                                className: "mb-14",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "text-4xl md:text-5xl lg:text-6xl font-momo text-[var(--secondary)] mb-6 tracking-tight",
+                                        className: "text-3xl md:text-4xl lg:text-5xl font-momo text-[var(--secondary)] mb-3 tracking-tight",
                                         children: [
                                             "Why Choose",
                                             " ",
@@ -1692,122 +1732,207 @@ const WhyChooseHat = ()=>{
                                                 children: "EduLink"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/WhyChooseHat.tsx",
-                                                lineNumber: 160,
+                                                lineNumber: 194,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             "?"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/WhyChooseHat.tsx",
-                                        lineNumber: 158,
+                                        lineNumber: 192,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-lg md:text-xl text-secondary/70 max-w-4xl mx-auto leading-relaxed",
+                                        className: "text-base md:text-lg text-secondary/70 max-w-2xl mx-auto lg:mx-0 leading-relaxed",
                                         children: [
-                                            "Discover what makes us the preferred choice for thousands of students and parents worldwide.",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                fileName: "[project]/components/WhyChooseHat.tsx",
-                                                lineNumber: 168,
-                                                columnNumber: 29
-                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            "Discover why thousands of students and parents trust EduLink for guidance and success.",
+                                            " ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "text-primary font-semibold",
                                                 children: "Your success is our mission."
                                             }, void 0, false, {
                                                 fileName: "[project]/components/WhyChooseHat.tsx",
-                                                lineNumber: 169,
+                                                lineNumber: 202,
                                                 columnNumber: 29
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/WhyChooseHat.tsx",
-                                        lineNumber: 165,
+                                        lineNumber: 199,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/WhyChooseHat.tsx",
-                                lineNumber: 157,
+                                lineNumber: 191,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 ref: containerRef,
-                                className: "grid grid-cols-1 sm:grid-cols-3 gap-6 pt-6",
-                                children: features.map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        ref: (el)=>boxRefs.current[i] = el,
-                                        className: "group relative bg-white/90 backdrop-blur-xl border border-blue-100 rounded-2xl p-6 shadow-md    text-center transition-all duration-500 hover:-translate-y-3    hover:shadow-[0_15px_40px_rgba(0,150,255,0.25)] hover:border-blue-400",
+                                className: "grid grid-cols-1 md:grid-cols-3 gap-6 pt-2 md:pt-6",
+                                children: features.map((feature, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        ref: (el)=>{
+                                            boxRefs.current[i] = el;
+                                        },
+                                        className: "group relative flex flex-col justify-between bg-white/90 backdrop-blur-xl  border border-transparent rounded-2xl p-5 shadow-sm transition-all duration-500  hover:-translate-y-3 hover:shadow-[0_12px_30px_rgba(0,150,255,0.15)]  hover:border-blue-300 hover:bg-white",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "absolute inset-0 rounded-2xl bg-gradient-to-r from-blue-500/10 via-teal-400/10 to-purple-500/10    opacity-0 group-hover:opacity-100 blur-lg transition-all duration-500"
+                                                className: "absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 bg-gradient-to-r from-blue-50 via-teal-50 to-purple-50 blur-xl transition-all duration-700"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/WhyChooseHat.tsx",
-                                                lineNumber: 187,
+                                                lineNumber: 224,
                                                 columnNumber: 33
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "relative z-10",
+                                                className: "relative z-10 flex flex-col h-full",
                                                 children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "flex justify-center md:justify-between items-center mb-4",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                className: "p-2 rounded-xl bg-gradient-to-br from-[var(--primary)] to-teal-500 text-white shadow-md transition-transform duration-300 group-hover:scale-110 group-hover:rotate-3",
+                                                                children: feature.icon
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/WhyChooseHat.tsx",
+                                                                lineNumber: 229,
+                                                                columnNumber: 41
+                                                            }, ("TURBOPACK compile-time value", void 0)),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                className: "hidden md:inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-700 group-hover:bg-blue-200 transition-colors duration-300",
+                                                                children: feature.label
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/WhyChooseHat.tsx",
+                                                                lineNumber: 232,
+                                                                columnNumber: 41
+                                                            }, ("TURBOPACK compile-time value", void 0))
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/WhyChooseHat.tsx",
+                                                        lineNumber: 228,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    feature.stats && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "text-center mb-4",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                className: "text-4xl font-bold text-secondary mb-1",
+                                                                children: feature.stats.number
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/WhyChooseHat.tsx",
+                                                                lineNumber: 239,
+                                                                columnNumber: 45
+                                                            }, ("TURBOPACK compile-time value", void 0)),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                className: "font-medium text-secondary/70",
+                                                                children: feature.stats.label
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/WhyChooseHat.tsx",
+                                                                lineNumber: 242,
+                                                                columnNumber: 45
+                                                            }, ("TURBOPACK compile-time value", void 0))
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/WhyChooseHat.tsx",
+                                                        lineNumber: 238,
+                                                        columnNumber: 41
+                                                    }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                        className: "text-3xl font-extrabold bg-gradient-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent drop-shadow-sm",
-                                                        children: item.title
+                                                        className: "text-lg font-bold text-secondary mb-2 group-hover:text-[var(--primary)] transition-colors duration-300",
+                                                        children: feature.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/WhyChooseHat.tsx",
-                                                        lineNumber: 191,
+                                                        lineNumber: 248,
                                                         columnNumber: 37
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "text-gray-700 mt-2 text-base font-medium",
-                                                        children: item.description
+                                                        className: "text-sm text-secondary/70 leading-relaxed flex-1",
+                                                        children: feature.description
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/WhyChooseHat.tsx",
-                                                        lineNumber: 194,
+                                                        lineNumber: 251,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "flex justify-end mt-5 opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-3 group-hover:translate-y-0",
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                            className: "flex items-center text-[var(--primary)] text-sm font-semibold",
+                                                            children: [
+                                                                "Learn More",
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                                                    className: "w-4 h-4 ml-1 transition-transform duration-300 group-hover:translate-x-1",
+                                                                    fill: "none",
+                                                                    viewBox: "0 0 24 24",
+                                                                    stroke: "currentColor",
+                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                                        strokeLinecap: "round",
+                                                                        strokeLinejoin: "round",
+                                                                        strokeWidth: 2,
+                                                                        d: "M9 5l7 7-7 7"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/components/WhyChooseHat.tsx",
+                                                                        lineNumber: 264,
+                                                                        columnNumber: 49
+                                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/WhyChooseHat.tsx",
+                                                                    lineNumber: 258,
+                                                                    columnNumber: 45
+                                                                }, ("TURBOPACK compile-time value", void 0))
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/components/WhyChooseHat.tsx",
+                                                            lineNumber: 256,
+                                                            columnNumber: 41
+                                                        }, ("TURBOPACK compile-time value", void 0))
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/WhyChooseHat.tsx",
+                                                        lineNumber: 255,
                                                         columnNumber: 37
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/WhyChooseHat.tsx",
-                                                lineNumber: 190,
+                                                lineNumber: 226,
                                                 columnNumber: 33
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, i, true, {
                                         fileName: "[project]/components/WhyChooseHat.tsx",
-                                        lineNumber: 180,
+                                        lineNumber: 214,
                                         columnNumber: 29
                                     }, ("TURBOPACK compile-time value", void 0)))
                             }, void 0, false, {
                                 fileName: "[project]/components/WhyChooseHat.tsx",
-                                lineNumber: 175,
+                                lineNumber: 209,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/WhyChooseHat.tsx",
-                        lineNumber: 151,
+                        lineNumber: 186,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/WhyChooseHat.tsx",
-                lineNumber: 124,
+                lineNumber: 147,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-blue-100/40 rounded-full blur-3xl -z-10"
             }, void 0, false, {
                 fileName: "[project]/components/WhyChooseHat.tsx",
-                lineNumber: 205,
+                lineNumber: 281,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/components/WhyChooseHat.tsx",
-        lineNumber: 123,
+        lineNumber: 146,
         columnNumber: 9
     }, ("TURBOPACK compile-time value", void 0));
 };
-_s(WhyChooseHat, "Gb+I4rByhcP6cjZcNNAmXI/H7vw=");
+_s(WhyChooseHat, "K6fq1ri7J9fM7Ydeuy7hHefuiSs=");
 _c = WhyChooseHat;
 const __TURBOPACK__default__export__ = WhyChooseHat;
 var _c;

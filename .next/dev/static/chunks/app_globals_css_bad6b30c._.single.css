@@ -1901,10 +1901,6 @@
     background-color: var(--background);
   }
 
-  .bg-black {
-    background-color: var(--color-black);
-  }
-
   .bg-black\/20 {
     background-color: #0003;
   }
@@ -4330,6 +4326,12 @@
   }
 
   @media (min-width: 40rem) {
+    .sm\:py-32 {
+      padding-block: calc(var(--spacing) * 32);
+    }
+  }
+
+  @media (min-width: 40rem) {
     .sm\:text-base {
       font-size: var(--text-base);
       line-height: var(--tw-leading, var(--text-base--line-height));
@@ -4417,12 +4419,6 @@
   }
 
   @media (min-width: 48rem) {
-    .md\:h-80 {
-      height: calc(var(--spacing) * 80);
-    }
-  }
-
-  @media (min-width: 48rem) {
     .md\:h-100 {
       height: calc(var(--spacing) * 100);
     }
@@ -4455,12 +4451,6 @@
   @media (min-width: 48rem) {
     .md\:w-\[220px\] {
       width: 220px;
-    }
-  }
-
-  @media (min-width: 48rem) {
-    .md\:w-\[900px\] {
-      width: 900px;
     }
   }
 

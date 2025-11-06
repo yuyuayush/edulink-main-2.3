@@ -8,12 +8,14 @@ import { Award, BookOpen, GraduationCap } from "lucide-react";
 if (typeof window !== "undefined") gsap.registerPlugin(ScrollTrigger);
 
 const WhyChooseHat = () => {
-    const hatRefs = useRef([]);
-    const boxRefs = useRef([]);
-    const textRef = useRef(null);
-    const containerRef = useRef(null);
+    const hatRefs = useRef<(HTMLDivElement | null)[]>([]);
+    const boxRefs = useRef<(HTMLDivElement | null)[]>([]);
+    const textRef = useRef<HTMLDivElement | null>(null);
+    const containerRef = useRef<HTMLDivElement | null>(null);
 
     useEffect(() => {
+          if (!hatRefs.current || !textRef.current || !containerRef.current) return;
+
         // 🎓 Animate all hats differently
         hatRefs.current.forEach((hat, index) => {
             const delay = index * 0.3;
@@ -141,7 +143,7 @@ const WhyChooseHat = () => {
     ];
 
     return (
-        <section className="py-20 sm:py-20 relative w-full bg-gradient-to-b from-white to-blue-50  px-6 md:px-12 lg:px-16 overflow-visible">
+        <section className="py-20 sm:py-32 relative w-full bg-gradient-to-b from-white to-blue-50  px-6 md:px-12 lg:px-16 overflow-visible">
             <div className="mx-auto grid lg:grid-cols-2 gap-20 items-start relative z-10">
                 {/* LEFT SIDE */}
                 <div className="flex items-end relative h-full  ">
@@ -159,7 +161,9 @@ const WhyChooseHat = () => {
                     {[...Array(4)].map((_, i) => (
                         <div
                             key={i}
-                            ref={(el) => (hatRefs.current[i] = el)}
+                            ref={(el) => {
+                                hatRefs.current[i] = el;
+                            }}
                             className={`absolute left-0 w-22 h-20 md:w-32 md:h-32 ${i === 0
                                 ? "left-[40%] top-0"
                                 : i === 1
@@ -209,7 +213,9 @@ const WhyChooseHat = () => {
                         {features.map((feature, i) => (
                             <div
                                 key={i}
-                                ref={(el) => (boxRefs.current[i] = el)}
+                                ref={(el) => {
+                                    boxRefs.current[i] = el;
+                                }}
                                 className="group relative flex flex-col justify-between bg-white/90 backdrop-blur-xl 
                 border border-transparent rounded-2xl p-5 shadow-sm transition-all duration-500 
                 hover:-translate-y-3 hover:shadow-[0_12px_30px_rgba(0,150,255,0.15)] 
