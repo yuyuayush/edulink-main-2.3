@@ -136,7 +136,7 @@ const WhyChooseHat = () => {
     ];
 
     return (
-        <section className="py-20 sm:py-32 relative w-full bg-gradient-to-b from-white to-blue-50  px-6 md:px-12 lg:px-16 overflow-visible">
+        <section className="py-20 sm:py-32 relative w-full bg-gradient-to-b from-white to-blue-50  px-6 md:px-12 lg:px-16 overflow-hidden">
             <div className="mx-auto grid lg:grid-cols-2 gap-20 items-start relative z-10">
                 {/* LEFT SIDE */}
                 <div className="flex items-end relative h-full  ">
