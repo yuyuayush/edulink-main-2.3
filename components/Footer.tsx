@@ -72,7 +72,7 @@ export default function Footer() {
 
 
             {/* Icons */}
-            <div className="flex gap-4 justify-center pt-3">
+            {/* <div className="flex gap-4 justify-center pt-3">
               {[
                 { Icon: Mail, href: "mailto:info@edulink.com", label: "Email" },
                 { Icon: Phone, href: "tel:+61123456789", label: "Phone" },
@@ -86,7 +86,7 @@ export default function Footer() {
                   <Icon className="w-6 h-6 text-cyan-400" />
                 </a>
               ))}
-            </div>
+            </div> */}
           </div>
 
           {/* Quick Links */}
