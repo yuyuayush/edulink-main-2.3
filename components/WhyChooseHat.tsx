@@ -24,20 +24,13 @@ const WhyChooseHat = () => {
                 delay,
             });
 
-            throwTl
-                .to(hat, {
-                    y: -0 - index * 20,
-                    x: 100 + index * 40,
-                    rotation: 360 + index * 60,
-                    duration: 1.6,
-                    ease: "power2.out",
-                })
+            throwTl 
                 .to(hat, {
                     y:-180,
                     x: 0,
-                    rotation: 720 + index * 60,
+                    rotation: 180 + index * 60,
                     duration: 1.8,
-                    ease: "bounce.out",
+                    ease: "easeInOut",
                     onComplete: () => {
                         const floatTl = gsap.timeline({ repeat: -1, yoyo: true });
                         floatTl
@@ -165,11 +158,11 @@ const WhyChooseHat = () => {
                                 hatRefs.current[i] = el;
                             }}
                             className={`absolute left-0 w-22 h-20 md:w-32 md:h-32 ${i === 0
-                                ? "left-[40%] top-0"
+                                ? "left-[46%] top-20"
                                 : i === 1
-                                    ? "left-[28%] top-0"
-                                    : i === 2 ? "left-[50%] top-0"
-                                        : "left-[10%] top-0"
+                                    ? "left-[30%] top-20"
+                                    : i === 2 ? "left-[70%] top-20"
+                                        : "left-[10%] top-20"
                                 } z-20`}
                         >
                             <Image
