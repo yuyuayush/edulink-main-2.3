@@ -1290,10 +1290,6 @@
     width: 100%;
   }
 
-  .w-screen {
-    width: 100vw;
-  }
-
   .max-w-2xl {
     max-width: var(--container-2xl);
   }
@@ -1895,14 +1891,6 @@
     background-color: lab(75.3311% -37.9145 -6.48251 / .1);
   }
 
-  .bg-\[\#51302E\] {
-    background-color: #51302e;
-  }
-
-  .bg-\[url\] {
-    background-color: url;
-  }
-
   .bg-\[var\(--primary\)\] {
     background-color: var(--primary);
   }
@@ -2265,30 +2253,6 @@
   .bg-gradient-to-t {
     --tw-gradient-position: to top in oklab;
     background-image: linear-gradient(var(--tw-gradient-stops));
-  }
-
-  .bg-\[url\(\"\/\"\)\], .bg-\[url\(\'\/\'\)\] {
-    background-image: url("/");
-  }
-
-  .bg-\[url\(\'\/public\/\'\)\] {
-    background-image: url("/public/");
-  }
-
-  .bg-\[url\(\'\/w\'\)\] {
-    background-image: url("/w");
-  }
-
-  .bg-\[url\(\'\/why\'\)\] {
-    background-image: url("/why");
-  }
-
-  .bg-\[url\(\'\/whyChoose\/bg\.svg\'\)\] {
-    background-image: url("/whyChoose/bg.svg");
-  }
-
-  .bg-\[url\(\'\/whyChoose\/building\.jpg\'\)\] {
-    background-image: url("/whyChoose/building.jpg");
   }
 
   .from-\[\#4ECDC4\] {
@@ -2883,21 +2847,9 @@
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
 
-  .bg-auto {
-    background-size: auto;
-  }
-
-  .bg-cover {
-    background-size: cover;
-  }
-
   .bg-clip-text {
     -webkit-background-clip: text;
     background-clip: text;
-  }
-
-  .bg-center {
-    background-position: center;
   }
 
   .fill-current {
