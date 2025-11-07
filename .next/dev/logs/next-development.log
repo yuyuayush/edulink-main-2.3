@@ -149,3 +149,174 @@
 [00:17:27.250] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
 [00:17:41.941] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
 [00:17:48.943] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:19:15.806] Server  LOG      ✓ Compiled in 331ms
+[00:19:16.173] Browser ERROR   ./components/homepage/WhyChooseUS.tsx:60:11
+Parsing ecmascript source code failed
+  58 |       entries.forEach((entry) => {
+  59 |         if (entry.isIntersecting) {
+> 60 |           entry.target?.style.opacity = "1";
+     |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  61 |           entry.target.style.transform = "translateY(0)";
+  62 |         }
+  63 |       });
+
+The left-hand side of an assignment expression must be a variable or a property access.
+
+Import trace:
+  Server Component:
+    ./components/homepage/WhyChooseUS.tsx
+    ./app/page.tsx
+[00:19:17.183] Browser ERROR   ./components/homepage/WhyChooseUS.tsx:61:11
+Parsing ecmascript source code failed
+  59 |         if (entry.isIntersecting) {
+  60 |           entry.target?.style.opacity = "1";
+> 61 |           entry.target?.style.transform = "translateY(0)";
+     |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  62 |         }
+  63 |       });
+  64 |     }, observerOptions);
+
+The left-hand side of an assignment expression must be a variable or a property access.
+
+Import trace:
+  Server Component:
+    ./components/homepage/WhyChooseUS.tsx
+    ./app/page.tsx
+[00:19:21.214] Browser ERROR   ./components/homepage/WhyChooseUS.tsx:61:11
+Parsing ecmascript source code failed
+  59 |         if (entry.isIntersecting) {
+  60 |           entry.target?.style.opacity = "1";
+> 61 |           entry.target?.style.transform = "translateY(0)";
+     |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  62 |         }
+  63 |       });
+  64 |     }, observerOptions);
+
+The left-hand side of an assignment expression must be a variable or a property access.
+
+Import trace:
+  Server Component:
+    ./components/homepage/WhyChooseUS.tsx
+    ./app/page.tsx
+[00:19:27.182] Browser ERROR   ./components/homepage/WhyChooseUS.tsx:61:11
+Parsing ecmascript source code failed
+  59 |         if (entry.isIntersecting) {
+  60 |           entry.target?.style?.opacity = "1";
+> 61 |           entry.target?.style.transform = "translateY(0)";
+     |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  62 |         }
+  63 |       });
+  64 |     }, observerOptions);
+
+The left-hand side of an assignment expression must be a variable or a property access.
+
+Import trace:
+  Server Component:
+    ./components/homepage/WhyChooseUS.tsx
+    ./app/page.tsx
+[00:19:29.184] Browser ERROR   ./components/homepage/WhyChooseUS.tsx:61:11
+Parsing ecmascript source code failed
+  59 |         if (entry.isIntersecting) {
+  60 |           entry.target?.style?.opacity = "1";
+> 61 |           entry.target?.style?.transform = "translateY(0)";
+     |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  62 |         }
+  63 |       });
+  64 |     }, observerOptions);
+
+The left-hand side of an assignment expression must be a variable or a property access.
+
+Import trace:
+  Server Component:
+    ./components/homepage/WhyChooseUS.tsx
+    ./app/page.tsx
+[00:19:33.189] Browser ERROR   ./components/homepage/WhyChooseUS.tsx:61:11
+Parsing ecmascript source code failed
+  59 |         if (entry.isIntersecting) {
+  60 |           entry.target?.style?.opacity = "1";
+> 61 |           entry.target?.style?.transform = "translateY(0)";
+     |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  62 |         }
+  63 |       });
+  64 |     }, observerOptions);
+
+The left-hand side of an assignment expression must be a variable or a property access.
+
+Import trace:
+  Server Component:
+    ./components/homepage/WhyChooseUS.tsx
+    ./app/page.tsx
+[00:19:40.184] Browser ERROR   ./components/homepage/WhyChooseUS.tsx:61:11
+Parsing ecmascript source code failed
+  59 |         if (entry.isIntersecting) {
+  60 |           entry.target?.style?.opacity = "1";
+> 61 |           entry.target?.style?.transform = "translateY(0)";
+     |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  62 |         }
+  63 |       });
+  64 |     }, observerOptions);
+
+The left-hand side of an assignment expression must be a variable or a property access.
+
+Import trace:
+  Server Component:
+    ./components/homepage/WhyChooseUS.tsx
+    ./app/page.tsx
+[00:19:40.185] Browser ERROR   ./components/homepage/WhyChooseUS.tsx:61:11
+Parsing ecmascript source code failed
+  59 |         if (entry.isIntersecting) {
+  60 |           entry.target?.style?.opacity = "1";
+> 61 |           entry.target?.style?.transform = "translateY(0)";
+     |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  62 |         }
+  63 |       });
+  64 |     }, observerOptions);
+
+The left-hand side of an assignment expression must be a variable or a property access.
+
+Import trace:
+  Server Component:
+    ./components/homepage/WhyChooseUS.tsx
+    ./app/page.tsx
+[00:19:40.185] Browser ERROR   ./components/homepage/WhyChooseUS.tsx:61:11
+Parsing ecmascript source code failed
+  59 |         if (entry.isIntersecting) {
+  60 |           entry.target?.style?.opacity = "1";
+> 61 |           entry.target?.style?.transform = "translateY(0)";
+     |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  62 |         }
+  63 |       });
+  64 |     }, observerOptions);
+
+The left-hand side of an assignment expression must be a variable or a property access.
+
+Import trace:
+  Server Component:
+    ./components/homepage/WhyChooseUS.tsx
+    ./app/page.tsx
+[00:19:41.714] Server  LOG      ✓ Compiled in 381ms
+[00:20:22.232] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:20:25.384] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:20:46.991] Server  LOG      ✓ Compiled in 257ms
+[00:21:00.546] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:21:03.813] Browser WARN    Image with src "/footerlayout.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:21:03.813] Browser WARN    Element not found: body
+[00:21:03.813] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:21:03.813] Browser WARN    Element not found: body
+[00:21:03.813] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:21:04.227] Browser WARN    Image with src "/Services/phoneCover.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:21:04.227] Browser WARN    Image with src "/Services/girlImage.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:21:04.227] Browser WARN    Image with src "/Services/EducationCareerOpportunities.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:04.227] Browser WARN    Image with src "/Services/ProfessionalEmploymentSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:04.227] Browser WARN    Image with src "/Services/SettlementLivingSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:04.227] Browser WARN    Image with src "/Services/StudentSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:05.826] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:21:05.949] Browser WARN    Image with src "/Services/VisaMigrationSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:06.106] Browser WARN    Image with src "/Services/PersonalWellbeingSupport.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:06.999] Browser WARN    Element not found: body
+[00:21:06.999] Browser WARN    Element not found: body
+[00:21:08.128] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:21:08.317] Browser WARN    Element not found: body
+[00:21:10.519] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters
+[00:21:12.872] Browser WARN    Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters

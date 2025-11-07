@@ -1227,7 +1227,7 @@ const WhyChooseUS = ()=>{
                 "WhyChooseUS.useEffect": (entries)=>{
                     entries.forEach({
                         "WhyChooseUS.useEffect": (entry)=>{
-                            if (entry.isIntersecting) {
+                            if (entry.isIntersecting && entry.target instanceof HTMLElement) {
                                 entry.target.style.opacity = "1";
                                 entry.target.style.transform = "translateY(0)";
                             }
@@ -1252,24 +1252,24 @@ const WhyChooseUS = ()=>{
         style: {
             background: "linear-gradient(135deg, rgba(78,205,196,0.15) 0%, rgba(78,205,196,0.08) 25%, rgba(78,205,196,0.05) 50%, rgba(240,249,255,0.8) 75%, rgba(255,255,255,0.95) 100%)"
         },
-        className: "jsx-9513f86a6c465377" + " " + "py-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden",
+        className: "jsx-3f9c9b4dc82c2752" + " " + "py-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                id: "9513f86a6c465377",
-                children: "@keyframes cardFloat{0%,to{transform:translateY(0)}50%{transform:translateY(-10px)}}.auto-motion.jsx-9513f86a6c465377{animation:5s ease-in-out infinite cardFloat}"
+                id: "3f9c9b4dc82c2752",
+                children: "@keyframes cardFloat{0%,to{transform:translateY(0)}50%{transform:translateY(-10px)}}.auto-motion.jsx-3f9c9b4dc82c2752{animation:5s ease-in-out infinite cardFloat}"
             }, void 0, false, void 0, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-9513f86a6c465377" + " " + "absolute inset-0 opacity-10",
+                className: "jsx-3f9c9b4dc82c2752" + " " + "absolute inset-0 opacity-10",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-9513f86a6c465377" + " " + "absolute top-20 left-10 w-72 h-72 bg-[var(--primary)] rounded-full blur-3xl"
+                        className: "jsx-3f9c9b4dc82c2752" + " " + "absolute top-20 left-10 w-72 h-72 bg-[var(--primary)] rounded-full blur-3xl"
                     }, void 0, false, {
                         fileName: "[project]/components/homepage/WhyChooseUS.tsx",
                         lineNumber: 101,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-9513f86a6c465377" + " " + "absolute bottom-20 right-10 w-72 h-72 bg-[var(--secondary)] rounded-full blur-3xl"
+                        className: "jsx-3f9c9b4dc82c2752" + " " + "absolute bottom-20 right-10 w-72 h-72 bg-[var(--secondary)] rounded-full blur-3xl"
                     }, void 0, false, {
                         fileName: "[project]/components/homepage/WhyChooseUS.tsx",
                         lineNumber: 102,
@@ -1282,30 +1282,30 @@ const WhyChooseUS = ()=>{
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-9513f86a6c465377" + " " + "max-w-7xl mx-auto relative z-10",
+                className: "jsx-3f9c9b4dc82c2752" + " " + "max-w-7xl mx-auto relative z-10",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "jsx-9513f86a6c465377" + " " + "grid lg:grid-cols-2 gap-12 lg:gap-16 items-center",
+                    className: "jsx-3f9c9b4dc82c2752" + " " + "grid lg:grid-cols-2 gap-12 lg:gap-16 items-center",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             ref: imageRef,
                             style: {
                                 transform: "translateX(-50px)"
                             },
-                            className: "jsx-9513f86a6c465377" + " " + "relative opacity-0 transition-all duration-1000 ease-out",
+                            className: "jsx-3f9c9b4dc82c2752" + " " + "relative opacity-0 transition-all duration-1000 ease-out",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-9513f86a6c465377" + " " + "relative rounded-2xl overflow-hidden shadow-2xl ",
+                                className: "jsx-3f9c9b4dc82c2752" + " " + "relative rounded-2xl overflow-hidden shadow-2xl ",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                         src: "/whyChoose/stock.png",
                                         alt: "Professional",
-                                        className: "jsx-9513f86a6c465377" + " " + "w-full h-[600px] object-cover"
+                                        className: "jsx-3f9c9b4dc82c2752" + " " + "w-full h-[600px] object-cover"
                                     }, void 0, false, {
                                         fileName: "[project]/components/homepage/WhyChooseUS.tsx",
                                         lineNumber: 114,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-9513f86a6c465377" + " " + "absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"
+                                        className: "jsx-3f9c9b4dc82c2752" + " " + "absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"
                                     }, void 0, false, {
                                         fileName: "[project]/components/homepage/WhyChooseUS.tsx",
                                         lineNumber: 119,
@@ -1323,22 +1323,22 @@ const WhyChooseUS = ()=>{
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-9513f86a6c465377",
+                            className: "jsx-3f9c9b4dc82c2752",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     ref: headerRef,
                                     style: {
                                         transform: "translateY(30px)"
                                     },
-                                    className: "jsx-9513f86a6c465377" + " " + "opacity-0 transition-all duration-1000 ease-out",
+                                    className: "jsx-3f9c9b4dc82c2752" + " " + "opacity-0 transition-all duration-1000 ease-out",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                            className: "jsx-9513f86a6c465377" + " " + "text-4xl md:text-5xl font-bold text-[var(--secondary)] mb-6",
+                                            className: "jsx-3f9c9b4dc82c2752" + " " + "text-4xl md:text-5xl font-bold text-[var(--secondary)] mb-6",
                                             children: [
                                                 "Why Choose",
                                                 " ",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "jsx-9513f86a6c465377" + " " + "bg-gradient-to-r from-[var(--primary)] to-teal-600 bg-clip-text text-transparent",
+                                                    className: "jsx-3f9c9b4dc82c2752" + " " + "bg-gradient-to-r from-[var(--primary)] to-teal-600 bg-clip-text text-transparent",
                                                     children: "EduLink"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/homepage/WhyChooseUS.tsx",
@@ -1353,12 +1353,12 @@ const WhyChooseUS = ()=>{
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "jsx-9513f86a6c465377" + " " + "text-lg text-[var(--secondary)]/70 leading-relaxed mb-12",
+                                            className: "jsx-3f9c9b4dc82c2752" + " " + "text-lg text-[var(--secondary)]/70 leading-relaxed mb-12",
                                             children: [
                                                 "Discover why thousands of students and parents trust EduLink for guidance and success.",
                                                 " ",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "jsx-9513f86a6c465377" + " " + "text-[var(--primary)] font-semibold",
+                                                    className: "jsx-3f9c9b4dc82c2752" + " " + "text-[var(--primary)] font-semibold",
                                                     children: "Your success is our mission."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/homepage/WhyChooseUS.tsx",
@@ -1378,78 +1378,80 @@ const WhyChooseUS = ()=>{
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-9513f86a6c465377" + " " + "grid sm:grid-cols-2 gap-6",
+                                    className: "jsx-3f9c9b4dc82c2752" + " " + "grid sm:grid-cols-2 gap-6",
                                     children: features.map((feature, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            ref: (el)=>cardsRef.current[index] = el,
+                                            ref: (el)=>{
+                                                cardsRef.current[index] = el;
+                                            },
                                             style: {
                                                 transform: "translateY(30px)",
                                                 transitionDelay: `${index * 100}ms`,
                                                 animationDelay: `${index * 0.5}s`
                                             },
-                                            className: "jsx-9513f86a6c465377" + " " + "group relative opacity-0 transition-all duration-700 ease-out auto-motion",
+                                            className: "jsx-3f9c9b4dc82c2752" + " " + "group relative opacity-0 transition-all duration-700 ease-out auto-motion",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-9513f86a6c465377" + " " + "flex gap-4 items-start",
+                                                className: "jsx-3f9c9b4dc82c2752" + " " + "flex gap-4 items-start",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-9513f86a6c465377" + " " + "relative flex-shrink-0",
+                                                        className: "jsx-3f9c9b4dc82c2752" + " " + "relative flex-shrink-0",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "jsx-9513f86a6c465377" + " " + "w-16 h-16 bg-white border-2 border-[var(--primary)] rounded-lg flex items-center justify-center transition-all duration-300 group-hover:bg-[var(--primary)] group-hover:scale-110 group-hover:shadow-lg",
+                                                                className: "jsx-3f9c9b4dc82c2752" + " " + "w-16 h-16 bg-white border-2 border-[var(--primary)] rounded-lg flex items-center justify-center transition-all duration-300 group-hover:bg-[var(--primary)] group-hover:scale-110 group-hover:shadow-lg",
                                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    className: "jsx-9513f86a6c465377" + " " + "text-[var(--secondary)] transition-colors duration-300 group-hover:text-white",
+                                                                    className: "jsx-3f9c9b4dc82c2752" + " " + "text-[var(--secondary)] transition-colors duration-300 group-hover:text-white",
                                                                     children: feature.icon
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/homepage/WhyChooseUS.tsx",
-                                                                    lineNumber: 163,
+                                                                    lineNumber: 165,
                                                                     columnNumber: 25
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/homepage/WhyChooseUS.tsx",
-                                                                lineNumber: 162,
+                                                                lineNumber: 164,
                                                                 columnNumber: 23
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "jsx-9513f86a6c465377" + " " + "absolute -bottom-1 left-0 w-full h-1 bg-gradient-to-r from-[var(--primary)] to-transparent"
+                                                                className: "jsx-3f9c9b4dc82c2752" + " " + "absolute -bottom-1 left-0 w-full h-1 bg-gradient-to-r from-[var(--primary)] to-transparent"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/homepage/WhyChooseUS.tsx",
-                                                                lineNumber: 168,
+                                                                lineNumber: 170,
                                                                 columnNumber: 23
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/homepage/WhyChooseUS.tsx",
-                                                        lineNumber: 161,
+                                                        lineNumber: 163,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-9513f86a6c465377" + " " + "flex-1",
+                                                        className: "jsx-3f9c9b4dc82c2752" + " " + "flex-1",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                className: "jsx-9513f86a6c465377" + " " + "text-lg font-bold text-[var(--secondary)] mb-2 transition-colors duration-300 group-hover:text-[var(--primary)]",
+                                                                className: "jsx-3f9c9b4dc82c2752" + " " + "text-lg font-bold text-[var(--secondary)] mb-2 transition-colors duration-300 group-hover:text-[var(--primary)]",
                                                                 children: feature.title
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/homepage/WhyChooseUS.tsx",
-                                                                lineNumber: 173,
+                                                                lineNumber: 175,
                                                                 columnNumber: 23
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                className: "jsx-9513f86a6c465377" + " " + "text-[var(--secondary)]/70 text-sm leading-relaxed",
+                                                                className: "jsx-3f9c9b4dc82c2752" + " " + "text-[var(--secondary)]/70 text-sm leading-relaxed",
                                                                 children: feature.description
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/homepage/WhyChooseUS.tsx",
-                                                                lineNumber: 176,
+                                                                lineNumber: 178,
                                                                 columnNumber: 23
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/homepage/WhyChooseUS.tsx",
-                                                        lineNumber: 172,
+                                                        lineNumber: 174,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/homepage/WhyChooseUS.tsx",
-                                                lineNumber: 159,
+                                                lineNumber: 161,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, index, false, {

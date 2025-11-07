@@ -12,7 +12,7 @@ import {
 const WhyChooseUS = () => {
   const sectionRef = useRef(null);
   const headerRef = useRef(null);
-  const cardsRef = useRef([]);
+  const cardsRef = useRef<(HTMLDivElement | null)[]>([]);
   const imageRef = useRef(null);
 
   const features = [
@@ -56,7 +56,7 @@ const WhyChooseUS = () => {
 
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
-        if (entry.isIntersecting) {
+        if (entry.isIntersecting && entry.target instanceof HTMLElement) {
           entry.target.style.opacity = "1";
           entry.target.style.transform = "translateY(0)";
         }
@@ -148,7 +148,9 @@ const WhyChooseUS = () => {
               {features.map((feature, index) => (
                 <div
                   key={index}
-                  ref={(el) => (cardsRef.current[index] = el)}
+                  ref={(el) => {
+                    cardsRef.current[index] = el;
+                  }}
                   className="group relative opacity-0 transition-all duration-700 ease-out auto-motion"
                   style={{
                     transform: "translateY(30px)",
