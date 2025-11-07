@@ -217,7 +217,7 @@ const AnotherHero = () => {
           <video
             ref={videoRef}
             className="absolute inset-0 w-full h-full object-cover z-0"
-            src="/newnewhero.mp4"
+            src="/video/heroVideo.mp4"
             autoPlay
             loop
             muted

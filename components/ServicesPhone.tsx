@@ -94,9 +94,9 @@ const ServicesPhone = () => {
             }}
             loop
             grabCursor
-            modules={[Pagination, Autoplay]}
+            modules={[ Autoplay]}
             onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
-            pagination={{ clickable: true }}
+            // pagination={{ clickable: true }}
             className="mySwiper"
           >
             {SERVICES.map((service, index) => {

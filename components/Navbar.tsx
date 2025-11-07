@@ -400,7 +400,11 @@ const Navbar = ({ isStartupComplete = true }: NavbarProps) => {
       `}</style>
       <nav
         ref={navRef}
-        className={`fixed top-0 z-50 w-full transition-all duration-300 bg-white`}
+        className={`fixed top-0 z-50 w-full transition-all duration-300 
+          bg-gradient-to-b from-white/90 to-white/70 
+          backdrop-blur-xl backdrop-saturate-150
+          border-b border-white/40
+          shadow-2xl shadow-primary/10`}
         style={{ transformOrigin: "center top" }}
       >
         <div className="container mx-auto px-2 sm:px-4 md:px-6">
@@ -526,7 +530,7 @@ const Navbar = ({ isStartupComplete = true }: NavbarProps) => {
         {isMobileMenuOpen && (
           <div
             ref={mobileMenuRef}
-            className="lg:hidden absolute top-full left-0 right-0 bg-white/90 backdrop-blur-lg border-b-2 border-primary/50 shadow-xl"
+            className="lg:hidden absolute top-full left-0 right-0 bg-gradient-to-b from-white/95 to-white/85 backdrop-blur-xl backdrop-saturate-150 border-b-2 border-primary/50 shadow-xl"
           >
             <div className="container mx-auto px-2 sm:px-4 py-6">
               <div className="flex flex-col space-y-4">
